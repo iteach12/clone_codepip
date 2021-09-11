@@ -17,6 +17,67 @@ desc {
   display: flex;
   justify-content: center;
 }
+#feature_title {
+  display: flex;
+  justify-content: center;
+  width: 0 auto;
+  margin: 100px 0 50px 0;
+}
+
+#feature_title > h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #4c4c4c;
+  letter-spacing: 0.5px;
+}
+
+#feature_detail {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 20px;
+  align-items: center;
+}
+#feature_detail > div > h3 {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #4c4c4c;
+  letter-spacing: 0.5px;
+}
+
+#feature_detail > div > p {
+  width: 350px;
+  margin-top: 20px;
+  margin-bottom: 90px;
+  font-size: 1.1rem;
+  color: #4c4c4c;
+  text-align: center;
+}
+/* 자식선택자 -> 자식에게만 적용. 손자까지는 아님 */
+#feature_detail > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+}
+.wrapper_detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_icon {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #127f9c;
+}
+.container_icon > i {
+  color: #0c4d5e;
+}
 #text_main {
   width: 380px;
   height: 333px;
@@ -26,6 +87,7 @@ desc {
 #text_title {
   color: white;
   font-size: 3em;
+  font-weight: bolder;
 }
 #text_sub_title {
   color: white;
@@ -61,6 +123,7 @@ nav > img,
 #left_nav > ul > li {
   float: left;
   margin-left: 40px;
+  letter-spacing: 1px;
 }
 #right_nav > ul > li {
   float: left;
