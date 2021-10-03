@@ -99,12 +99,12 @@ h1 {
   align-items: center;
   padding-bottom: 90px;
 }
-#featured_on_list > img {
+/* #featured_on_list > img {
   transition: all 0.1s ease-in;
 }
 #featured_on_list:hover {
   transform: scale(1.2);
-}
+} */
 #text_main {
   width: 380px;
   height: 333px;
